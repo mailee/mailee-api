@@ -1,6 +1,6 @@
 # coding: utf-8
 
-module Mailee
+module MaileeOLD
 
   # The Config class is used to set your api url.
   # You can do it in your applications.rb or in a initializer.
@@ -81,7 +81,7 @@ module Mailee
   #
   #   # Names and emails (needs line breaks)
   #   Mailee::Quick.import("witt@cambridge.uk, Wittgenstein\ndick@princeton.edu, Rorty")
-  #   
+  #
   #   # Signatures (gmail style)
   #   Mailee::Quick.import('"Wittgenstein" <witt@cambridge.uk>,
   #                         "Rorty" <dick@princeton.edu.us>')
@@ -131,7 +131,7 @@ module Mailee
       end
     end
   end
-  
+
   # The Report class is still beta. It can return the results of a
   # message - total deliveries, accesses and returns. There are also
   # methods for getting accesses, unsubscribes and returns in "real time".
